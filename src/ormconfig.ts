@@ -7,6 +7,6 @@ export const ormconfig: PostgresConnectionOptions = {
   username: 'postgres',
   password: '72644',
   database: 'nest-blog',
-  synchronize: true,
+  synchronize: false,
   entities: [__dirname + '/**/*.entity{.ts,.js}'],
 };
